@@ -1,0 +1,157 @@
+/*Police*/
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/*Navigation*/
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+	padding-bottom: 3px;
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+/*Parti home*/
+#home{
+	background-image: url("IMAGE/imageMe.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-decoration: none;
+    padding-top: 18px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+.name{
+	text-align: center;
+	color: white;
+	font-size: 21px;
+}
+h2{
+	
+	color: white;
+	font-size: 48px;
+	padding-left: 50px;
+}
+#paragraphe-presentations{
+	padding-left: 50px;	
+}
+#about{
+background-color: #1b1f24;
+color: white;
+    padding-top: 18px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+#services{
+background-color: #1b1f24;
+color: white;
+    padding-top: 18px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+}
+
+/* La parti contact */
+#contact{
+	background: rgba(0, 0, 0, 0.7)url("IMAGE/image2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: darken;
+    color: white;
+    padding-top: 18px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+
+    
+}
+
+
